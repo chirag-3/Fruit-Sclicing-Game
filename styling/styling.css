@@ -1,0 +1,111 @@
+ html{
+    height:100%;
+    background:radial-gradient(circle,rgba(203, 206, 36, 0.219),rgba(199, 97, 140, 0.959)); 
+}
+
+#game-screen{
+    background-color: lightblue; 
+    height:82vh;
+    width:60%; 
+    margin:50px auto;
+    border: 5px  brown groove;
+    padding:10px;
+    box-shadow:5px 0;
+}
+
+#play-area{
+    background-color: white;
+    height:80%;
+    width:90%;
+    margin:10px auto;
+    margin-bottom: 10px;
+    box-shadow: 0 2px;
+    position:relative;
+    overflow:hidden;
+} 
+
+#play-area img{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+#life-score{
+    border: 1px black solid;
+    width:100%; 
+    height:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+#info{
+    border:black 1px solid;
+    width : 100%;
+    height: 50px;
+}
+
+#life-remaining{
+    /* border:1px solid black; */
+    height:60%;
+    flex:0 1 7%;
+    margin:auto 5px; 
+    display:flex;
+    align-items: center;
+    /* flex-wrap: wrap;
+    align-content:center; */
+}
+
+#life-remaining span{
+    flex:1;
+    border:1px black solid;
+}
+
+#score{
+    border:1px solid black;
+    height:60%;
+    flex:0 1 20%;
+    margin:auto 5px;
+    text-align:center;
+}
+
+#info{
+    display:flex;
+    justify-content:space-between;
+    margin-top:0px;
+}
+
+#instruction{
+    border:1px black solid;
+    height:60%;
+    flex:0 1 auto;
+    margin:auto 5px;
+    padding:1px;
+}
+
+#start-reset{
+    border:1px black solid;
+    height:60%;
+    flex:0 1 20%;
+    margin:auto 5px;
+    box-sizing:border-box;
+    padding:20px;
+    line-height: 5px;
+}
+
+#instruction{
+    line-height: 30px;
+    background-color: rgb(228, 36, 46);
+    color:white;
+    font-weight: bold;
+}
+
+#final-score{
+    font-weight: bold;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding-top : 200px;
+    height:100%;
+    text-align: center;
+}
