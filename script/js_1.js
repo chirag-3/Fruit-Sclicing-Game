@@ -79,6 +79,8 @@ $(function(){
       }
       $("#img1").show();
       fy = fy+move;   
+      if(score>40)
+          fx =  Math.random()*($("#play-area").width()-85);
       $("#img1").css({"left":fx,"top":fy});  
 
   },50)
